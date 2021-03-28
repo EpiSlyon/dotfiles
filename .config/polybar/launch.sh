@@ -73,6 +73,10 @@ elif [[ "$1" == "--sln" ]]; then
 	style="sln"
 	launch_bar
 
+elif [[ "$1" == "--sln-top" ]]; then
+	style="sln-top"
+	launch_bar
+
 else
 	cat <<- EOF
 	Usage : launch.sh --theme
