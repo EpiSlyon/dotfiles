@@ -23,12 +23,12 @@ bindsym $super+Return exec kitty
 
 # start dmenu (a program launcher)
 bindsym $super+Shift+d exec i3-dmenu-desktop --dmenu="dmenu -i -fn 'Noto Sans:size=8'"
-bindsym $super+d exec rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/.config/polybar/docky/scripts/rofi/launcher.rasi
+bindsym $super+d exec rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/.config/rofi/launchers/launcher.rasi
 
 # common apps keybinds
 bindsym Print exec scrot ~/Pictures/Screenshots/Cheese_%a-%d%b%y_%H.%M.png -e 'viewnior ~/$f' 
 bindsym $super+l exec i3lock -u -i ~/Downloads/cyber.png
-bindsym $super+Shift+b exec google-chrome-stable
+bindsym $super+Shift+b exec brave
 bindsym $super+Shift+f exec thunar;workspace 3;focus
 bindsym $super+Shift+g exec geany
 
